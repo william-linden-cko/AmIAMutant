@@ -2,10 +2,12 @@
 {
     public static class MutationAnalyser 
     {
-        // hair colour is not blond, black or brown or gray
-        // Can fly
-        // can read minds 
-        // is 120 years or older 
+        // Definition of a Mutant 
+        // ----------------------
+        // * Hair colour is not blond, black or brown or gray
+        // * Can fly
+        // * Can read minds 
+        // * Is older than 120 years 
 
         public static bool IsMutant(PersonProperties person)
         {
